@@ -1,0 +1,31 @@
+{
+  "name": "treslek-vote",
+  "version": "0.0.0",
+  "description": "A treslek plugin that provides commands to poll the channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirwin/treslek-vote.git"
+  },
+  "keywords": [
+    "treslek",
+    "vote",
+    "poll",
+    "irc"
+  ],
+  "author": "Justin Gallardo <justin.gallardo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jirwin/treslek-vote/issues"
+  },
+  "homepage": "https://github.com/jirwin/treslek-vote",
+  "dependencies": {
+    "async": "^0.9.0",
+    "logmagic": "^0.1.4",
+    "redis": "^0.12.1",
+    "sprintf": "^0.1.4"
+  }
+}
